@@ -16,14 +16,16 @@ Route::get('/clear-cache', function() {
 Route::get('/', [StudentController::class, 'certificationForm'])->name('students.certificationForm');
 Route::post('/', [StudentController::class, 'showCertification'])->name('students.showCertification');
 
+// Public routes for viewing student data (with hashed ID)
+Route::get('/student/{hashedId}', [StudentController::class, 'show'])->name('students.show');
+Route::get('/certificate/{hashedId}', [StudentController::class, 'certificate'])->name('students.certificate');
+
 // Admin routes (protected)
 Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', [StudentController::class, 'index'])->name('dashboard');
     Route::get('/admin/create', [StudentController::class, 'create'])->name('students.create');
     Route::get('/admin', [StudentController::class, 'index'])->name('students.index');
     Route::post('/student/store', [StudentController::class, 'store'])->name('students.store');
-    Route::get('/student/{hashedId}', [StudentController::class, 'show'])->name('students.show');
-    Route::get('/certificate/{hashedId}', [StudentController::class, 'certificate'])->name('students.certificate');
     Route::get('/admin/{id}/edit', [StudentController::class, 'edit'])->name('students.edit');
     Route::put('/admin/{id}', [StudentController::class, 'update'])->name('students.update');
     Route::get('/search', [StudentController::class, 'search'])->name('students.search');
