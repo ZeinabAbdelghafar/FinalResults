@@ -123,6 +123,37 @@ A Laravel-based web application for managing and displaying student exam results
 | `/student/{hashedId}` | GET | View certificate | Yes |
 | `/certificate/{hashedId}` | GET | Certificate after creation | Yes |
 
+## 📱 Screenshots
+
+### 1️⃣ Public Certificate Search
+**Search Form**
+<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/65a53239-21bb-4752-83ae-af3084d50efc" />
+<img width="346" height="607" alt="image" src="https://github.com/user-attachments/assets/4a2bd43d-506f-4c26-88bc-05b827f6839f" />
+**Result Page**
+<img width="1920" height="1306" alt="image" src="https://github.com/user-attachments/assets/021e35f8-07a8-4e0c-a9fc-e1261e29786a" />
+<img width="346" height="605" alt="image" src="https://github.com/user-attachments/assets/66b49674-74b7-4988-8009-a6dbf01dba2b" />
+
+
+### 2️⃣ Admin Login
+<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/748790af-894a-4d6d-a0ca-929805f31690" />
+
+
+### 3️⃣ List All Certificates
+<img width="1920" height="2587" alt="image" src="https://github.com/user-attachments/assets/60c7f3c0-9066-4b69-a19f-9c88c5549183" />
+
+
+### 4️⃣ Create Certificate
+<img width="1920" height="1368" alt="image" src="https://github.com/user-attachments/assets/29dc109f-59c0-436e-aa45-298fcc4e6654" />
+
+
+### 5️⃣ Show Certificate
+<img width="1920" height="1368" alt="image" src="https://github.com/user-attachments/assets/6d8a990a-4f15-473f-93bd-871172770cbe" />
+
+
+### 6️⃣ Edit Certificate
+<img width="1920" height="1368" alt="image" src="https://github.com/user-attachments/assets/1f606f3d-a401-41c9-95a3-faf0bb6cb248" />
+
+
 ## 🔒 Security
 
 - All admin routes are protected with authentication middleware
