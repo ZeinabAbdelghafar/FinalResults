@@ -126,10 +126,12 @@ A Laravel-based web application for managing and displaying student exam results
 ## 📱 Screenshots
 
 ### 1️⃣ Public Certificate Search
-**Search Form**
+
+#### Search Form
 <img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/65a53239-21bb-4752-83ae-af3084d50efc" />
 <img width="346" height="607" alt="image" src="https://github.com/user-attachments/assets/4a2bd43d-506f-4c26-88bc-05b827f6839f" />
-**Result Page**
+
+#### Result Page
 <img width="1920" height="1306" alt="image" src="https://github.com/user-attachments/assets/021e35f8-07a8-4e0c-a9fc-e1261e29786a" />
 <img width="346" height="605" alt="image" src="https://github.com/user-attachments/assets/66b49674-74b7-4988-8009-a6dbf01dba2b" />
 
